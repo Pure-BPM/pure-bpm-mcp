@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.purebpm/mcp",
+  "title": "Pure BPM",
+  "description": "Make AI Tracks, loops and sound effects, split stems, build drum kits and master songs.",
+  "version": "0.1.1",
+  "websiteUrl": "https://www.purebpm.com/mcp",
+  "repository": {
+    "url": "https://github.com/Pure-BPM/pure-bpm-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.purebpm.com/favicon.png",
+      "mimeType": "image/png",
+      "sizes": ["70x70"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.purebpm.com/mcp"
+    }
+  ]
+}
